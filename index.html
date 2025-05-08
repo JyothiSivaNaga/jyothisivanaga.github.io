@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jyothi Siva Naga | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fff6fa;
+      color: #2c3e50;
+      line-height: 1.7;
+    }
+    header {
+      background: linear-gradient(90deg, #ffc0cb 0%, #ffe4ec 100%);
+      color: #2c3e50;
+      padding: 3rem 1rem 2rem 1rem;
+      text-align: center;
+      position: relative;
+      box-shadow: 0 2px 12px rgba(255,192,203,0.10);
+    }
+    header h1 {
+      margin: 0.5rem 0 0.2rem 0;
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+      font-weight: 700;
+      text-shadow: 0 2px 8px #ffe4ec;
+    }
+    .profile-pic {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      background-color: #fff;
+      position: absolute;
+      top: 2rem;
+      left: 2rem;
+      border: 4px solid #fff;
+      object-fit: cover;
+      box-shadow: 0 4px 16px rgba(255,192,203,0.15);
+    }
+    nav {
+      text-align: center;
+      background: #f8bbd0;
+      padding: 0.7rem 0;
+      box-shadow: 0 2px 8px rgba(255,192,203,0.06);
+    }
+    nav a {
+      color: #2c3e50;
+      margin: 0 1.5rem;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: color 0.2s;
+    }
+    nav a:hover {
+      color: #e91e63;
+    }
+    section {
+      padding: 2.5rem 1.5rem;
+      max-width: 900px;
+      margin: 2rem auto;
+      background: #fff;
+      border-radius: 14px;
+      box-shadow: 0 2px 16px rgba(255,192,203,0.08);
+    }
+    .section-title {
+      color: #e91e63;
+      margin-bottom: 1.2rem;
+      border-bottom: 2px solid #ffc0cb;
+      display: inline-block;
+      padding-bottom: 0.3rem;
+      font-size: 1.5rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    /* Enhanced Skills Section */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 1.2rem;
+      margin-top: 1.2rem;
+      padding: 0;
+      list-style: none;
+    }
+    .skill-card {
+      background: #fff6fa;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(255,192,203,0.06);
+      padding: 1.2rem 0.5rem;
+      text-align: center;
+      font-weight: 600;
+      color: #e91e63;
+      font-size: 1.08rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .skill-card:hover {
+      box-shadow: 0 4px 16px rgba(233,30,99,0.12);
+      transform: translateY(-4px) scale(1.03);
+    }
+    .skill-icon {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+      color: #f06292;
+    }
+    a {
+      color: #e91e63;
+      transition: color 0.2s;
+    }
+    a:hover {
+      color: #ad1457;
+    }
+    footer {
+      background: linear-gradient(90deg, #ffc0cb 0%, #ffe4ec 100%);
+      color: #2c3e50;
+      text-align: center;
+      padding: 1.2rem;
+      font-size: 1rem;
+      letter-spacing: 0.5px;
+      border-top: 1px solid #ffc0cb;
+    }
+    @media (max-width: 700px) {
+      .profile-pic {
+        position: static;
+        display: block;
+        margin: 0 auto 1rem auto;
+      }
+      header {
+        padding: 2rem 1rem 1.5rem 1rem;
+      }
+      section {
+        padding: 1.2rem 0.5rem;
+        margin: 1rem 0.5rem;
+      }
+      .skills-grid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="edit-photo.jpg" alt="Profile Photo" class="profile-pic">
+    <h1>Goddati Jyothi Siva Naga</h1>
+    <p>Aspiring AI & Data Science Undergraduate</p>
+    <p>📍 Vijayawada, Andhra Pradesh</p>
+    <p>📧 <a href="mailto:jyothisivanaga93@gmail.com">jyothisivanaga93@gmail.com</a> | <a href="https://www.linkedin.com/in/jyothi-siva-naga-1454262a3/">LinkedIn</a></p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certs">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>I am an undergraduate student in Artificial Intelligence and Data Science with a passion for machine learning, data analysis, and AI-driven solutions. I am eager to apply my knowledge in real-world challenges and contribute to innovative developments in AI.</p>
+  </section>
+
+  <section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <ul class="skills-grid">
+      <li class="skill-card"><span class="skill-icon">&lt;/&gt;</span>HTML</li>
+      <li class="skill-card"><span class="skill-icon">🎨</span>CSS</li>
+      <li class="skill-card"><span class="skill-icon">🐍</span>Python</li>
+      <li class="skill-card"><span class="skill-icon">🔢</span>NumPy</li>
+      <li class="skill-card"><span class="skill-icon">📊</span>Matplotlib</li>
+      <li class="skill-card"><span class="skill-icon">🧮</span>Pandas</li>
+      <li class="skill-card"><span class="skill-icon">🗄️</span>PL/SQL</li>
+      <li class="skill-card"><span class="skill-icon">☕</span>Java</li>
+      <li class="skill-card"><span class="skill-icon">💾</span>SQL</li>
+      <li class="skill-card"><span class="skill-icon">🔣</span>C</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="project">
+      <strong>Billing and Invoicing System (Java)</strong>
+      <p>Developed a billing system using core Java with features like bill generation, itemized calculations, and basic data storage.</p>
+    </div>
+    <div class="project">
+      <strong>Job Portal System (DBMS)</strong>
+      <p>Designed and implemented database schemas and CRUD operations, using SQL and relational database design principles.</p>
+    </div>
+  </section>
+
+  <section id="certs">
+    <h2 class="section-title">Certifications</h2>
+    <ul>
+      <li>Introduction to Cybersecurity - Cisco (Oct 2023)</li>
+      <li>Programming Essentials in C - Cisco (Oct 2023)</li>
+      <li>Programming Essentials in Python - Cisco (Oct 2023)</li>
+      <li>Database Programming with SQL - Oracle (Oct 2024)</li>
+      <li>Database Programming with PL/SQL - Oracle (Nov 2024)</li>
+    </ul>
+  </section>
+
+  <section class="achievements">
+    <h2 class="section-title">Achievements</h2>
+    <ul>
+      <li>Solved 500 difficulty-rated problems on CodeChef</li>
+      <li>Qualified internal round of Smart India Hackathon 2024</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <p>Email: jyothisivanaga93@gmail.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/jyothi-siva-naga-1454262a3/">jyothi-siva-naga-1454262a3</a></p>
+    <p>Location: Vijayawada, Andhra Pradesh</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Goddati Jyothi Siva Naga. All rights reserved.</p>
+  </footer>
+</body>
+</html>
